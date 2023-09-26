@@ -12,7 +12,6 @@ public abstract class Bird {
     private BirdType birdType;
     private Colour birdColor;
     private  Size birdSize;
-    public abstract void fly();
     public void eat() {
         System.out.println("Bird is eating");
     }

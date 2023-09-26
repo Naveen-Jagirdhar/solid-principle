@@ -5,7 +5,7 @@ This repository is all about having sample codes on how to achieve solid princip
 - o ----> Open / Closed Principle
 - l ----> Liskov Substitution Principle
 - i ----> Interface Segregation Principle
-- d ----> Dependency Injection
+- d ----> Dependency Inversion
 
 **SRP (single responsibility principle)**
 - A single code unit which has only 1 responsibility
@@ -15,3 +15,7 @@ This repository is all about having sample codes on how to achieve solid princip
 - OCP is applied only on classes
 
 **Liskov substitution Principle**
+- Whenever we are replacing child class with parent class we should not handle special cases
+- We can solve the problem by separating the behavior in form of
+  Abstract class
+  Interfaces
